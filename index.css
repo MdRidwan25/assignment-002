@@ -1,4 +1,7 @@
 * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -100,6 +103,99 @@ line-height: 27px;
 
 
 }
+
+/* Plants Section Styles Here */
+
+
+.plant-title{
+width: 1140px;
+text-align: center;
+margin: 20px auto;
+
+}
+
+.plants{
+
+width: 1140px;
+text-align: center;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+
+}
+
+.plant-card{
+
+margin-top: 20px;
+
+
+
+}
+
+
+.plant-title h1 span{
+
+color: rgb(233, 90, 8);
+
+}
+
+.plant-title h1{
+
+font-family: Noto Serif;
+font-size: 50px;
+font-weight: 700;
+  
+}
+
+.plant-title p{
+
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+text-align: center;
+
+
+}
+
+.plant-card button{
+
+width: 270px;
+height: 50px;
+background: rgb(233, 90, 8);
+border: none;
+text-align: center;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+margin-top: 7px;
+}
+
+.plant-card img{
+
+width: 270px;
+height: 322.94px;
+margin-bottom: 7px;
+
+}
+
+.plant-card h4{
+margin-bottom: 7px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

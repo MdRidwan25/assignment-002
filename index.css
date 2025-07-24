@@ -189,14 +189,56 @@ margin-bottom: 7px;
 }
 
 
+/* Plants Lover Section Styles Here */
+
+.plants-love-section{
 
 
+width: 1140px;
+height: 597px;
+border: 2px solid red;
+margin-top: 150px;
+display: flex;
+justify-content: space-between;
 
 
+}
 
+.plants-love-child img{
 
+width: 540px;
+height: 597px;
 
+}
 
+.plants-love-child{
+
+width: 540px;
+height: 521px;
+
+}
+
+.plants-love-child h1{
+width: 540px;
+height: 137px;
+color: rgb(0, 0, 0);
+font-family: Noto Serif;
+font-size: 50px;
+font-weight: 700;
+line-height: 68px;
+
+}
+
+.plants-love-child li{
+
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+line-height: 27px;
+margin-top: 20px;
+
+}
 
 
 

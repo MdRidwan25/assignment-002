@@ -1,0 +1,145 @@
+* {
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  background-color: rgb(245, 248, 255);
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.nav-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+  width: 1140px;
+  height: 71px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.nav-main-container img {
+  width: 135px;
+  height: 82px;
+}
+.nav-main-container ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-main-container ul {
+  list-style: none;
+  display: flex;
+  gap: 17px;
+}
+
+
+
+
+/* Banner Styles Here */
+
+.banner{
+
+width: 1140px;
+height: 461px;
+border: 2px solid red;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.banner-clid img{
+
+width: 570px;
+height: 355px;
+
+}
+
+
+.banner-clid h1 span{
+
+color: rgb(233, 90, 8);
+
+
+font-family: Noto Serif;
+font-size: 65px;
+font-weight: 700;
+line-height: 89px;
+
+}
+
+
+.banner-clid h1{
+
+font-family: Noto Serif;
+font-size: 65px;
+font-weight: 700;
+line-height: 89px;
+
+
+
+}
+
+.banner-clid p{
+  width: 570px;
+height: 108px;
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+line-height: 27px;
+
+
+}
+
+
+
+
+/* Responsive styles Start */
+
+@media screen and (max-width: 768px) {
+  .nav-main-container {
+    width: 361px;
+    height: 38px;
+    
+   
+  }
+
+  .nav-main-container img {
+  width: 63px;
+height: 38px;
+
+
+
+  }
+
+  .home-li {
+    display: none;
+  }
+
+
+  .banner{
+
+
+
+  }
+
+
+
+
+
+
+
+
+}
+
+/* Responsive Styles End */

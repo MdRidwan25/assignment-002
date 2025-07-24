@@ -127,10 +127,47 @@ height: 38px;
   }
 
 
-  .banner{
+ /* Banner Section */
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    gap: 20px;
+    border: none;
+    text-align: center;
+  }
 
+ 
+  .banner-clid:nth-child(2) {
+    order: -1;
+  }
 
+  .banner-clid img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
 
+  .banner-clid h1 {
+    font-size: 24px;
+   
+    font-weight: 500;
+  }
+
+  .banner-clid h1 span {
+    font-size: 24px;
+    color: rgb(233, 90, 8);
+  }
+
+  .banner-clid p {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0 10px;
+    width: 100%;
   }
 
 
